@@ -1,0 +1,24 @@
+<view class="contain">
+  <form class='form'>
+    <view class='section student-name'>
+      <view class='title'>姓名：</view>
+      <input type='text' placeholder='请输入姓名' value="{{studentName}}"></input>
+    </view>
+    <view class='section student-id'>
+      <view class='title'>学号：</view>
+      <input type='number' placeholder='请输入学号' value='{{studentId}}'></input>
+    </view>
+    <view class='section student-profession'>
+      <view class='title'>专业：</view>
+      <input type='text' placeholder='请输入专业' value='{{studentProfession}}'></input>
+    </view>
+    <view class='section student-class'>
+      <view class='title'>班级：</view>
+      <input type='text' placeholder='请输入班级' value='{{studentClass}}'></input>
+    </view>
+    <view class='section btn'>
+      <button type='primary' class='submit' form-type='submit' bindtap='submit'>提交</button>
+      <button type='warn' class='reset' form-type='reset'>清空</button>
+    </view>
+  </form>
+</view>
