@@ -2,7 +2,7 @@
   "pages":[
     "pages/index/index"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#000",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "信管创业基地报名系统",
